@@ -48,8 +48,6 @@ class db {
   addDepartment(department) {
     return this.connection.promise().query("INSERT INTO department SET ?", department);
   }
-
-
 }
 
 module.exports = new db(connection);
