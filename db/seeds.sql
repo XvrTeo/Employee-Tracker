@@ -20,7 +20,7 @@ VALUES
   ("Software Engineer",120000,2),
   ("Account Manager",160000,3),
   ("Accountant",125000,3),
-  ("Legal Team Lead",250000,4);
+  ("Legal Team Lead",250000,4),
   ("Lawyer",190000,4);
 
 -- Employee
@@ -32,7 +32,7 @@ VALUES
   ("Thomas","Edison",4,3),
   ("Henry","Ford",4,3),
   ("Warren","Buffet",5,NULL),
-  ("Walter","Diemer",6,5),
-  ("J.P.","Morgan",6,5),
+  ("Walter","Diemer",6,6),
+  ("J.P.","Morgan",6,6),
   ("Abraham","Lincoln",7,NULL),
-  ("Thurgood","Marshall",8,7);
+  ("Thurgood","Marshall",8,9);
