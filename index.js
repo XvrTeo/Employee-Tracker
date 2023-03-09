@@ -141,7 +141,7 @@ function createRole() {
                 {
                     type: "list",
                     name: "department_id",
-                    message: "Which department does the role fall in under?",
+                    message: "Which department does the role fall under?",
                     choices: departmentChoices
                 }
             ])

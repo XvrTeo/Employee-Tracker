@@ -6,7 +6,11 @@ This is a command-line application that manages a company's employee database. T
 
 ## Usage
 
-TO-DO
+1. Clone the repository to your local machine by running the git clone command, and then run npm install for required dependencies
+2. In MySQL, run SOURCE ./db/schema.sql
+3. In MySQL, run SOURCE ./db/seeds.sql
+4. Run npm start
+5. Go through prompts to make selections
 
 ## Link to YouTube video:
 
