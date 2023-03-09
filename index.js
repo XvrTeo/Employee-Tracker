@@ -284,5 +284,6 @@ function updateEmployeeRole() {
 
 // Quit
 function quit() {
+    console.log("Goodbye!");
     process.exit();
 }
