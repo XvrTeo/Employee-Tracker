@@ -5,7 +5,6 @@ require("console.table");
 init();
 
 // At NPM start
-
 function init() {
     runPrompts();
 }
@@ -14,7 +13,6 @@ function runPrompts() {
     prompt([
         {
             // Prompts on NPM start
-
             type: "list",
             name: "choice",
             message: "What would you like to do?",
@@ -59,7 +57,6 @@ function runPrompts() {
         let choice = res.choice;
 
         // Calling the functions from user selection
-
         switch (choice) {
             case "VIEW_DEPARTMENTS":
                 viewAllDepartments();
@@ -90,7 +87,6 @@ function runPrompts() {
 }
 
 // View all employees
-
 function viewAllEmployees() {
     db.allEmployees()
         .then(([rows]) => {
@@ -102,7 +98,6 @@ function viewAllEmployees() {
 }
 
 // View all roles
-
 function viewAllRoles() {
     db.allRoles()
         .then(([rows]) => {
@@ -114,7 +109,6 @@ function viewAllRoles() {
 }
 
 // View all deparments
-
 function viewAllDepartments() {
     db.allDepartments()
         .then(([rows]) => {
@@ -126,7 +120,6 @@ function viewAllDepartments() {
 }
 
 // Add a role
-
 function createRole() {
     db.allDepartments()
         .then(([rows]) => {
@@ -161,7 +154,6 @@ function createRole() {
 }
 
 // Add a department
-
 function createDepartment() {
     prompt([
         {
@@ -178,7 +170,6 @@ function createDepartment() {
 }
 
 // Add an employee
-
 function createEmployee() {
     prompt([
         {
@@ -248,7 +239,6 @@ function createEmployee() {
 }
 
 // Update an employee's role
-
 function updateEmployeeRole() {
     db.allEmployees()
         .then(([rows]) => {
@@ -293,7 +283,6 @@ function updateEmployeeRole() {
 }
 
 // Quit
-
 function quit() {
     process.exit();
 }
