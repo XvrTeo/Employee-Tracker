@@ -6,11 +6,15 @@ This is a command-line application that manages a company's employee database. T
 
 ## Usage
 
-1. Clone the repository to your local machine by running the git clone command, and then run npm install for required dependencies
-2. In MySQL, run SOURCE ./db/schema.sql
-3. In MySQL, run SOURCE ./db/seeds.sql
-4. Run npm start
-5. Go through prompts to make selections
+1. Clone the repository to your local machine by running the git clone command
+2. Run npm init
+3. Run npm install inquirer@8.2.4
+4. Run npm install mysql2
+5. Run npm install console.table
+6. In MySQL, run SOURCE ./db/schema.sql
+7. In MySQL, run SOURCE ./db/seeds.sql
+8. Back in the root of your project, run npm start
+9. Go through prompts to make selections
 
 ## Link to YouTube video:
 
