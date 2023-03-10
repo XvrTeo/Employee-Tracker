@@ -19,11 +19,13 @@ This is a command-line application that manages a company's employee database. T
 8. Back in the root of your project, run npm start
 9. Go through prompts to make selections
 
+![GIF](./assets/Employee-Tracker.gif)
+
 ## Link to YouTube video:
 
-YouTube link: TO-DO
+YouTube link: https://youtu.be/qwLy5MWU1cM
 
 ### Links:
 
-1. YouTube video: TO-DO
+1. YouTube video: https://youtu.be/qwLy5MWU1cM
 2. https://github.com/XvrTeo/Employee-Tracker
